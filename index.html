@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Demo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="top-nav">
+
+            <div class="brand">
+                <div class="left-menu">
+                    <button class="left-menu-btn">
+                        <i class='bx bx-menu'></i>
+                    </button>
+                    <ul class="left-ul">
+                        <button class="btn-close-nav"><i class='bx bx-x bx-spin'></i></button>
+                        <div class="side-menu-title">MEGAMENU</div>
+                        <li>Home</li>
+                        <li>Shop</li>
+                        <li>Blog</li>
+                        <li>Pages</li>
+                        <li>Elementor Live</li>
+                        <li>Buy</li>
+                        <li>Compare (0)</li>
+                        <li>My wishlist (0)</li>
+                    </ul>
+                </div>
+
+                <div class="brand-logo ">
+                    axon
+                </div>
+            </div>
+            <div class="search input-group">
+                <input type="text" class="search-input" placeholder="Enter your keyword ..." required>
+                <select name="category" id="" class="category">
+                    <option value="#" selected disabled hidden>
+                        <a>Select Category</a>
+                    </option>
+                    <option value="">Shop</option>
+                    <option value="">Category</option>
+                    <option value="">Accessories</option>
+                    <option value="">Featured product</option>
+                </select>
+
+                <button class="btn btn-search"> <a href=""><i class="fas fa-search"></i></a></button>
+            </div>
+            <div class="cart-gp">
+                <div class="login">
+                    <i class='bx bx-heart bx-sm bx-tada '></i>
+                </div>
+                <div class="cart">
+                    <i class='bx bx-shopping-bag bx-sm bx-tada bx-burst'></i>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <section class="section-1">
+            <div class="sec-nav-wrap">
+                <div class="side-nav">
+                    <div class="side-title">
+                        <span class="menu-icon"><i class='bx bx-menu'></i></span>
+                        <span class="cat-hide"> all categories </span> <span class="down">&#8964;</span>
+                    </div>
+                </div>
+                <ul class="right-nav">
+                    <li>home </li><span class="home-enti">&#8964;</span>
+                    <li>Shop</li><span>&#8964;</span>
+                    <li>blog</li><span>&#8964;</span>
+                    <li>pages</li><span>&#8964;</span>
+                    <li>elementory live</li><span>&#8964;</span>
+                    <li>buy</li><span>&#8964;</span>
+                </ul>
+
+            </div>
+
+            <div class="carousel-wrap">
+                <div class="side-menu">
+                    <li>Furniture</li>
+                    <li>Cooking</li>
+                    <li>Fashion</li>
+                    <li>Accessories</li>
+                    <li>Clocks</li>
+                    <li>Lighting</li>
+                    <li>Toys</li>
+                    <li>Hand Made</li>
+                    <li>Minimalism</li>
+                    <li>Electronics</li>
+                    <li>Show More</li>
+                </div>
+                <div class="slider">
+                    <div class="sliders">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+
+                        <div class="slide first">
+                            <div class="img-text-blog">
+                                <label for="radio1">
+                                    <div class="min-container">
+                                        <h4>Terry webb - franco' designer</h4>
+                                        <p>Lorem ipsum dolor sit ametm dolor sit amet consectetur adipisicing elit.
+                                            Cumque, incidunt.
+                                        </p>
+                                        <button class="btn btn-slider">Shop Now!</button>
+                                    </div>
+                                </label>
+                            </div>
+                            <img src="./image/5.jpg" alt="">
+                        </div>
+                        <div class="slide ">
+                            <div class="img-text-blog">
+                                <label for="radio1">
+                                    <div class="min-container">
+                                        <h4>Terry webb - franco' designer</h4>
+                                        <p>Lorem ipsum dolor sit ametm dolor sit amet consectetur adipisicing elit.
+                                            Cumque, incidunt.
+                                        </p>
+                                        <button class="btn btn-slider">Shop Now!</button>
+                                    </div>
+                                </label>
+                            </div>
+                            <img src="./image/6.jpg" alt="">
+                        </div>
+                        <div class="slide ">
+                            <div class="img-text-blog">
+                                <label for="radio1">
+                                    <div class="min-container">
+                                        <h4>Terry webb - franco' designer</h4>
+                                        <p>Lorem ipsum dolor sit ametm dolor sit amet consectetur adipisicing elit.
+                                            Cumque, incidunt.
+                                        </p>
+                                        <button class="btn btn-slider">Shop Now!</button>
+                                    </div>
+                                </label>
+                            </div>
+                            <img src="./image/7.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- section-2 ------------*-->
+
+        <section class="section-2">
+            <div class="section-2-card">
+                <i class='bx bxs-send se-2-icon'></i>
+
+                <div class="se-2-text-wrap">
+                    <h6>NO Limited</h6>
+                    <span>Worldwide free shipping</span>
+                </div>
+            </div>
+            <div class="section-2-card">
+                <i class='bx bx-arrow-from-right se-2-icon'></i>
+                <div class="se-2-text-wrap">
+                    <h6>money back</h6>
+                    <span>7 days money back guaranteed</span>
+                </div>
+            </div>
+            <div class="section-2-card last">
+                <i class='bx bx-headphone se-2-icon'></i>
+                <div class="se-2-text-wrap">
+                    <h6>safety</h6>
+                    <span>We never share your individual info</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- feature-2- ------------* -->
+
+        <section class="feature-1">
+            <div class="electronics">
+                <div class="head-text">
+                    <div>electronics</div>
+                </div>
+
+                <ul class="mid-feature">
+                    <li class="select">Women's</li>
+                    <li>Men</li>
+                    <li>Kids</li>
+                </ul>
+
+                <div class="edge-arrow">
+
+                    <i class='bx bxs-chevron-left bx-fade-left-hover'></i>
+                    <i class='bx bxs-chevron-right bx-fade-right-hover'></i>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-3">
+            <div class="card-wrap">
+
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-1/1.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Prasent In Ante</div>
+                        <div>Shop</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="price">$129.00</div>
+                    </div>
+                </div>
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-1/6.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Nunc Quis Gravida</div>
+                        <div>Shop</div>
+                        <div> <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">$89.00</div>
+                    </div>
+                </div>
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-1/5.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Nulla Imperdiet Purus</div>
+                        <div class="shop">Shop</div>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">$99.00</div>
+                    </div>
+                </div>
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-1/4.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Donec Congue Vesti</div>
+                        <div>Shop</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">$$45.40</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---feature-2 2-images ----* -->
+
+        <section class="feature-2">
+            <div class="feature-2-wrap">
+                <img src="./image/feature-2/6.jpg" alt="">
+                <img src="./image/feature-2/5.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- ------reused section ---  -->
+
+        <section class="feature-1">
+            <div class="electronics">
+                <div class="head-text">
+                    <div>Fashions</div>
+                </div>
+
+                <ul class="mid-feature">
+                    <li class="select">Women's</li>
+                    <li>Men</li>
+                    <li>Kids</li>
+                </ul>
+
+                <div class="edge-arrow">
+                    <i class='bx bxs-chevron-left bx-fade-left-hover'></i>
+                    <i class='bx bxs-chevron-right bx-fade-right-hover'></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------feature-3 end ---  -->
+
+
+        <section class="section-3">
+            <div class="card-wrap">
+
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-2/1.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Prasent In Ante</div>
+                        <div>Shop</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="price">$129.00</div>
+                    </div>
+                </div>
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-2/2.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Nunc Quis Gravida</div>
+                        <div>Shop</div>
+                        <div> <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">$89.00</div>
+                    </div>
+                </div>
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-2/3.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Nulla Imperdiet Purus</div>
+                        <div class="shop">Shop</div>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">$99.00</div>
+                    </div>
+                </div>
+                <div class="mini-wrap">
+                    <div class="card">
+                        <img src="./image/card-2/4.jpg" alt="">
+                    </div>
+                    <div class="buttom-text">
+                        <div class="btn-t">Donec Congue Vesti</div>
+                        <div>Shop</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">$$45.40</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- end or reused  sections ----  -->
+
+
+        <section class="section-4">
+            <div class="section-4-wrap">
+
+                <div class="se-wrap">
+                    <div class="new-arrival">
+                        <div class="se-4-head-text">
+                            <div>New Arrivals</div>
+                        </div>
+
+                        <div class="edge-arrow-x">
+                            <i class='bx bxs-chevron-left bx-fade-left-hover'></i>
+                            <i class='bx bxs-chevron-right bx-fade-right-hover'></i>
+                        </div>
+                    </div>
+                    <div class="se-4-box">
+                        <div class="mini-box">
+                            <div class="mini-card">
+                                <img src="./image/mini-box/1.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                            <div class="mini-card">
+                                <img src="./image/mini-box/2.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                            <div class="mini-card">
+                                <img src="./image/mini-box/3.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --------------  -->
+
+                <div class="se-wrap">
+                    <div class="new-arrival">
+                        <div class="se-4-head-text">
+                            <div>best seller</div>
+                        </div>
+
+                        <div class="edge-arrow-x">
+                            <i class='bx bxs-chevron-left bx-fade-left-hover'></i>
+                            <i class='bx bxs-chevron-right bx-fade-right-hover'></i>
+                        </div>
+                    </div>
+                    <div class="se-4-box">
+                        <div class="mini-box">
+                            <div class="mini-card">
+                                <img src="./image/mini-box/4.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                            <div class="mini-card">
+                                <img src="./image/mini-box/5.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                            <div class="mini-card">
+                                <img src="./image/mini-box/6.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------  -->
+                <div class="se-wrap">
+                    <div class="new-arrival">
+                        <div class="se-4-head-text">
+                            <div>SPECIALS</div>
+                        </div>
+
+                        <div class="edge-arrow-x">
+                            <i class='bx bxs-chevron-left bx-fade-left-hover'></i>
+                            <i class='bx bxs-chevron-right bx-fade-right-hover'></i>
+                        </div>
+                    </div>
+                    <div class="se-4-box">
+                        <div class="mini-box">
+                            <div class="mini-card">
+                                <img src="./image/mini-box/7.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                            <div class="mini-card">
+                                <img src="./image/mini-box/8.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                            <div class="mini-card">
+                                <img src="./image/mini-box/9.jpg" alt="">
+                                <div class="buttom-text-x">
+                                    <div class="btn-t">Prasent In Ante</div>
+
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <div class="price">$129.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <div class="end-section">
+
+            <div class="end-wrap">
+                <div class="new-arrival end-bar">
+                    <div class="se-4-head-text">
+                        <div>LATEST NEW</div>
+                    </div>
+
+                    <div class="edge-arrow-x">
+                        <i class='bx bxs-chevron-left bx-fade-left-hover'></i>
+                        <i class='bx bxs-chevron-right bx-fade-right-hover'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-card-wrap">
+
+                <div class="end-card">
+                    <div class="img-end-wrap">
+                        <img class="end-card-img" src="./image/end section/1.jpg" alt="">
+                    </div>
+                    <div class="card-text-end">
+                        <h5>caaer fesf tgersd</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ut!</p>
+                        <div class="read-more">
+                            <a href="#">read More</a>
+                        </div>
+                    </div>
+                    <div class="right-top-tag">
+                        <span class="day">23</span>
+                        <span class="month">Dec</span>
+                    </div>
+                </div>
+                <div class="end-card">
+                    <div class="img-end-wrap">
+                        <img class="end-card-img" src="./image/end section/4.jpg" alt="">
+                    </div>
+                    <div class="card-text-end">
+                        <h5>caaer fesf tgersd</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ut!
+                        </p>
+                        <div class="read-more">
+                            <a href="#">read More</a>
+                        </div>
+                    </div>
+                    <div class="right-top-tag">
+                        <span class="day">23</span>
+                        <span class="month">Dec</span>
+                    </div>
+                </div>
+
+                <div class="end-card">
+                    <div class="img-end-wrap">
+                        <img class="end-card-img" src="./image/end section/5.jpg" alt="">
+                    </div>
+                    <div class="card-text-end">
+                        <h5>caaer fesf tgersd</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ut!</p>
+                        <div class="read-more">
+                            <a href="#">read More</a>
+                        </div>
+                    </div>
+                    <div class="right-top-tag">
+                        <span class="day">23</span>
+                        <span class="month">Dec</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-brand">
+            <div class="footer-brand-wrap">
+                <img src="./image/footer-brand/spm-br1.png" alt="" class="footer-brand">
+                <img src="./image/footer-brand/spm-br2 (1).png" alt="" class="footer-brand">
+                <img src="./image/footer-brand/spm-br3.png" alt="" class="footer-brand">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-head">
+            <h3>Axon</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum omnis nostrum alias at error. Excepturi
+                quae natus ut minus eum.</p>
+
+        </div>
+        <div class="footer-body">
+            <fieldset>
+                <div class="legend-wrap">
+                    <legend>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-pinterest-square"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-skype"></i>
+                    </legend>
+                </div>
+
+                <div class="footer-innter-content">
+                    <div class="contact">
+                        <h3>Contact us</h3>
+                        <div class="contact-ul-wrap">
+                            <ul>
+                                <li><span><i class="fas fa-home"></i></span> 123 New Design Str, ABC
+                                    Building,
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Melbourne, Australia
+                                </li>
+                                <li><span> <i class="fas fa-phone"></i></span> (+1)866-550-3669</li>
+                                <li><span><i class="fas fa-envelope"></i></span> Contact@yoursite.com</li>
+                                <li><span> <i class="fas fa-clock"></i></span> Mon - Sat : 8 AM - 5 PM
+                                    Sun: <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 AM
+                                    - 8 PM
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mid-info">
+                        <div class="infomation">
+                            <h3>Infomation</h3>
+                            <ul>
+                                <li>My account</li>
+                                <li>Cart</li>
+                                <li>Order history</li>
+                                <li>Addresses</li>
+                                <li>Identity</li>
+                                <li>Order history</li>
+                                <li>Contact us</li>
+                                <li>Sitemap</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="infomation">
+                            <h3>quick-link</h3>
+                            <ul>
+                                <li>Delivery</li>
+                                <li>Legal Notice</li>
+                                <li>About us </li>
+                                <li>Secure payment</li>
+                                <li>Prices drop</li>
+                                <li>New products</li>
+                                <li>Best sales</li>
+                                <li>Addresses</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="newsletter">
+                        <h3>newsletter</h3>
+                        <p> Suspendisse urna nibh, viverra non, semper suscipit .</p>
+                        <input type="email" required placeholder="Your email address">
+                        <button class="footer-btn">
+                            SUBSCRIBE
+                        </button>
+                        <div class="visa">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                            <i class="fab fa-cc-apple-pay"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </fieldset>
+        </div>
+        <div class="copy-right">
+            <span>Super market</span>
+            &copy; 2021 Made with. All Rights Reserved.
+        </div>
+    </div>
+
+
+
+
+    <!-- boxicon -->
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- fonaswome  -->
+    <script src="https://kit.fontawesome.com/fa388adf8c.js" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
