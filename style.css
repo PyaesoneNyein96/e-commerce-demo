@@ -11,9 +11,7 @@
 body {
   background-color: rgba(193, 214, 214, 0.242);
 }
-.section-1 {
-  /* padding: 0 7%; */
-}
+
 :root {
   --main-teme: rgb(212, 88, 60);
   --text-color: white;
@@ -209,13 +207,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* end of top main nav ------------- */
-
-.container {
-  /* position: relative;
-  height: 100vh;
-  width: 100%; */
-  /* background-color: aquamarine; */
-}
 
 .sec-nav-wrap {
   /* width: auto; */
@@ -521,9 +512,6 @@ ul span,
   .se-2-text-wrap h6 {
     font-size: 12px;
   }
-  .se-2-text-wrap span {
-    /* font-size: 12px; */
-  }
 }
 @media (max-width: 600px) {
   .section-2 {
@@ -542,10 +530,6 @@ ul span,
 
 /* ----------section-2 end ------------- */
 
-.feature-1 {
-  /* height: 100px; */
-  /* background-color: rgb(103, 85, 85); */
-}
 .electronics {
   background-color: rgba(255, 255, 255, 0.953);
   display: flex;
@@ -810,10 +794,8 @@ ul span,
 /* -----end section ----- */
 
 .end-section {
-  /* width: 100%; */
   margin: 0 7% 0 7%;
   background-color: rgba(219, 208, 208, 0.126);
-  /* padding-bottom: 20px; */
 }
 
 .end-card-wrap {
@@ -836,7 +818,6 @@ ul span,
   overflow: hidden;
 }
 .end-card-img {
-  /* position: relative; */
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -848,7 +829,6 @@ ul span,
 
 .card-text-end h5 {
   font-size: 18px;
-  /* font-weight: 500; */
   color: rgb(71, 69, 69);
   text-transform: capitalize;
   margin: 15px;
@@ -867,7 +847,6 @@ ul span,
   color: rgb(210, 43, 43);
   text-transform: uppercase;
   font-size: 18px;
-  /* font-weight: bold; */
 }
 
 .right-top-tag {
@@ -1111,7 +1090,6 @@ legend * {
   .mid-info {
     flex-direction: column;
     align-items: flex-start;
-    /* margin-left: 20px; */
   }
   .infomation ul li {
     text-align: start;
