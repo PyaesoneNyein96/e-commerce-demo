@@ -580,7 +580,7 @@ ul span,
 .edge-arrow i {
   width: 15px;
   height: 15px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 @media (max-width: 600px) {
@@ -759,7 +759,7 @@ ul span,
   justify-content: end;
 }
 .edge-arrow-x i {
-  margin-right: 15px;
+  margin-right: 5px;
 }
 @media (max-width: 600px) {
   .section-4-wrap {
